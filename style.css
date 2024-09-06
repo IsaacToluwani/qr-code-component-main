@@ -4,6 +4,39 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  width: 320px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
   background-color: hsl(212, 45%, 89%);
   display: flex;
@@ -11,9 +44,9 @@ body{
   align-items: center;
   justify-content: center;
   height: 100vh;
-}
+} */
 
-article {
+/* article {
   background-color: hsl(0, 0%, 100%);
   display: flex;
   flex-direction: column;
@@ -21,7 +54,17 @@ article {
   justify-content: center;
   /* height: 50vh; */
   
-}
+} */
+/* 
+
+article {
+  background-color: hsl(0, 0%, 100%);
+  width: 300px; /* Set a width for the article */
+  height: 400px; /* Optionally set a height for the article */
+  display: flex; /* If you want to center content inside the article */
+  align-items: center; /* Center content horizontally inside the article */
+  justify-content: center; /* Center content vertically inside the article */
+} */
 
 
 /* article {
